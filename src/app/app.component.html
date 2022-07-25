@@ -1,0 +1,34 @@
+<h1>Hello World</h1>
+{{title}} <!-- coming from app.component.ts were title key value pair can be changed-->
+<!--angular interpolation--> 
+<br>
+<h1>Interpolation !!--------------</h1>
+<h2>{{name}}</h2>
+<h3>{{getName()}}</h3>
+<h4>{{getN()}}</h4>
+<h1>{{obj}}</h1>
+<h2>{{obj.firstname}} {{obj.lastname}}</h2>
+<h3>{{arr}}</h3>
+<h3>{{arr[0]}}</h3>
+<h3>{{arr.length}}</h3>
+<h2>{{10+22}}</h2>
+<h4>{{a+b}}</h4>
+<h2>{{siteURL}}</h2>
+
+<h1>Components !! ----------------------------------</h1>
+<app-user-list></app-user-list>
+
+<h1>Example Of Module ----------------------</h1>
+
+<h2>User-Login component and Users Module--------</h2>
+<app-login></app-login>
+
+<h2>User-SignUp component and Users Module--------</h2>
+<app-signup></app-signup>
+
+<h1>Function In Angular</h1>-----------------------
+<button (click)="getFunName1()">Click Here Function1</button>
+<button (click)="getFunName2('anish with String Parameter')">CLick Here Function2</button> 
+<!-- <button (click)="getFunName2(anish without String quotes)">CLick Here Function3</button> 
+ -->
+ <button (click)="getFunName4(yourNameForFun)">Click Here Function4</button>
